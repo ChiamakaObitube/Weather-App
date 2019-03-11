@@ -10,6 +10,7 @@ window.addEventListener("load", () => {
             const api = 'https://api.darksky.net/forecast/6ac6a1c43cbc37bd8ee528388f3882c7/$(lat), $(long)';
         });
     } else {
+
         h2.textContent = "Enable location";
     }
 });
